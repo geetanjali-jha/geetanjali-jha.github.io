@@ -1,12 +1,12 @@
-#outerDiv{
-background-color: teal;
-width: 50%;
-height: 600px;
-margin-left: 25%;
-display: flex;
-margin-top: 5%;
+#outerDiv {
+    background-color: teal;
+    width: 50%;
+    height: 600px;
+    margin-left: 25%;
+    display: flex;
+    margin-top: 5%;
 }
-#innerDiv{
+#innerDiv {
     background-color: rgb(108, 47, 47);
     width: 80%;
     height: 450px;
@@ -15,9 +15,7 @@ margin-top: 5%;
     margin: 10%;
     padding: 10px;
 }
-h1{
-    text-decoration: underline;
-}
-p{
+
+p {
     font-size: 25px;
 }
