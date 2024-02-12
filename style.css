@@ -12,7 +12,12 @@ margin-top: 5%;
     height: 450px;
     color: white;
     text-align: center;
-    margin-left: 10%;
-    margin-top: 10%;
-
+    margin: 10%;
+    padding: 10px;
+}
+h1{
+    text-decoration: underline;
+}
+p{
+    font-size: 25px;
 }
