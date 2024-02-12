@@ -1,0 +1,18 @@
+#outerDiv{
+background-color: teal;
+width: 50%;
+height: 600px;
+margin-left: 25%;
+display: flex;
+margin-top: 5%;
+}
+#innerDiv{
+    background-color: rgb(108, 47, 47);
+    width: 80%;
+    height: 450px;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
