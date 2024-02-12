@@ -1,21 +1,21 @@
 #outerDiv {
     background-color: teal;
     width: 50%;
-    height: 600px;
+    height: auto;
     margin-left: 25%;
     display: flex;
     margin-top: 5%;
 }
 #innerDiv {
-    background-color: rgb(108, 47, 47);
+    background-color: rgb(151, 6, 44);
     width: 80%;
-    height: 450px;
+    height: auto;
     color: white;
     text-align: center;
     margin: 10%;
-    padding: 10px;
+    padding: 3%;
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
 }
