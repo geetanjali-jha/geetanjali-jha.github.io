@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="styleSheet" href="index.css">
+</head>
+<body>
+    <form id="tipCalculatorForm">
+    
+        <div id="paraDiv">
+            <p id="para">ITMD 541 - Lab3 - Geetanjali Jha</p>
+            <h1 id="h1para">Tip Calculator</h1>
+        </div>
+
+        <div class="inputDiv" >
+            <label class="genericLabel" for="billTotal">Bill Total </label>
+            <input id="billTotalInput" type="text" name="billTotal" placeholder="Enter total bill..."/>
+            <span id="errorMessage"></span>
+        </div>
+        <br>
+        <br>
+        <div class="sliderInputDiv">
+            <label class="genericLabel" for="tip">Tip </label>
+            <input id="rangeSliderInput" type="range"  name="rangeSlider" class="slider" min="0" max="100" value="50"/>
+            <span id="sliderValue">50%</span>
+        </div>
+        <br>
+        <br>
+        <div class="inputDiv">
+            <label class="genericLabel" for="tipPercentage">Tip Percentage</label>
+            <input id="tipPercentageInput" type="text" name="tipPercentage" disabled/>
+        </div>
+        <br>
+        <br>
+        <div class="inputDiv">
+            <label class="genericLabel" for="tipAmount">Tip Amount </label>
+            <input id="tipAmountInput" type="text" name="tipAmount" disabled/>
+        </div>  
+        <br>
+        <br>
+        <div class="inputDiv">
+            <label class="genericLabel" for="totalBillWithTip">Total Bill With Tip </label>
+            <input id="totalBillWithTipInput" type="text" name="billTotal" disabled/>
+        </div>
+    
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
