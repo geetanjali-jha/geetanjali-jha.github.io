@@ -90,6 +90,13 @@ body{
         grid-template-columns: 30% 30% 5%;
         column-gap: 2%;
     }
+
+    #rangeSliderInput{
+        width: 80%;
+        border: black solid 2px;
+        padding: 0;
+        
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -103,5 +110,12 @@ body{
         display: grid;
         grid-template-columns: 30% 30% 5%;
         column-gap: 2%;
+    }
+
+    #rangeSliderInput{
+        width: 80%;
+        border: black solid 2px;
+        padding: 0;
+        
     }
 }
