@@ -18,8 +18,8 @@ function tipSliderfunc() {
 
     // Get the values from nodes
     var billTotalValue = parseFloat(billTotalNode.value);
-
     var tipSliderValue = parseFloat(tipSliderNode.value);
+    
     sliderOutput.textContent = tipSliderValue + "%";
 
     // Validation
