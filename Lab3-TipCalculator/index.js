@@ -17,20 +17,20 @@ function tipSliderfunc() {
     var errorMessageNode = document.getElementById("errorMessage");
 
     // Get the values from nodes
-    var billTotalValue = parseFloat(billTotalNode.value);
+    var billTotalValue = Number(billTotalNode.value);
     var tipSliderValue = parseFloat(tipSliderNode.value);
-    
+
     sliderOutput.textContent = tipSliderValue + "%";
 
     // Validation
-    if (isNaN(billTotalValue)) {
+    if (isNaN(billTotalValue) || billTotalNode.value === "" || billTotalValue < 0) {
         // Set empty strings on disabled fields
         tipPercentageNode.value = "";
         tipAmountNode.value = "";
         totalBillWithTipNode.value = "";
 
         // Throw an error message
-        if (billTotalNode.value !== "") {
+        if (billTotalNode.value !== "" || billTotalValue < 0) {
             // put an error message in errorMessageNode
             errorMessageNode.innerHTML = "Invalid input";
             errorMessageNode.style.color = "rgb(255, 49, 49)";
